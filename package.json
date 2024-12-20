@@ -1,0 +1,40 @@
+{
+  "name": "lineitem-service",
+  "version": "1.1.0",
+  "description": "Express.js microservice for managing LineItems with MongoDB and Mongoose.",
+  "main": "dist/app.js",
+  "scripts": {
+    "start": "node dist/app.js",
+    "dev": "ts-node-dev --respawn --transpile-only src/app.ts",
+    "test": "jest --passWithNoTests",
+    "lint": "eslint",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "Your Name",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-validator": "^7.2.0",
+    "mongoose": "^7.3.1",
+    "morgan": "^1.10.0",
+    "winston": "^3.9.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.17",
+    "@types/express-validator": "^2.20.33",
+    "@types/mongoose": "^5.11.97",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^20.4.2",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.1.6",
+    "@types/cors": "^2.8.17",
+    "@types/dotenv": "^8.2.0",
+    "@types/jest": "^29.5.12",
+    "eslint": "^8.57.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.2.5",
+    "ts-jest": "^29.1.2"
+  }
+}
